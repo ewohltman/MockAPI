@@ -154,6 +154,7 @@ func run() error {
 }
 
 func main() {
+	fmt.Println("test")
 	err := run()
 	if err != nil {
 		log.Fatalf("Error: %s", err)
